@@ -30,7 +30,7 @@
             <!--
               ここに続きのHTMLを書いていきましょう
             -->
-            <div class="form-content__name">
+            <div class="form-content__name row">
               <div class="form-content__name__area is-half-width">
                 <p class="label-text">
                   名字<span class="alert"> ※</span>
@@ -41,7 +41,26 @@
                 <p class="label-text">
                   名前<span class="alert"> ※</span>
                 </p>
-                <input type="text" class="input-area">
+                <input type="text" name="first-name" class="input-area">
+              </div>
+            </div>
+            <div class="form-content__gender row">
+              <p class="label-text">
+                性別
+              </p>
+              <div class="form-content__gender__options">
+                <label class="form-content__gender__option">
+                  <input type="radio" name="gender" value="male">
+                  <span>男性</span>
+                </label>
+                <label class="form-content__gender__option">
+                  <input type="radio" name="gender" value="male">
+                  <span>女性</span>
+                </label>
+                <label class="form-content__gender__option">
+                  <input type="radio" name="gender" value="male">
+                  <span>その他</span>
+                </label>
               </div>
             </div>
             <p class="agreement">アカウントを作成することにより、<a class="link-color" href>利用規約</a>と<a class="link-color" href>プライバシーポリシー</a>に同意するものとします。</p>

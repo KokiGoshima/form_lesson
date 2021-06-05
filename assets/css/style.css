@@ -14,6 +14,14 @@
   font-size: 12px;
 }
 
+.row {
+  margin-top: 20px;
+}
+
+.row:first-child {
+  margin-top: 0;
+}
+
 .input-area {
   box-sizing: border-box;
   height: 36px;
@@ -158,6 +166,15 @@
 /*--- name part---*/
 .form-content__name {
   display: flex;
+}
+
+/*--- gender part ---*/
+.form-content__gender__option {
+  margin-left: 15px;
+}
+
+.form-content__gender__option:first-child {
+  margin-left: 0;
 }
 
 .is-half-width {
