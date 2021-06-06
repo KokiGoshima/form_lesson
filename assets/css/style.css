@@ -224,6 +224,24 @@
   background-color: #01bfbd;
 }
 
+/*--- birth-place part ---*/
+.form-content__birth-place__area {
+  position: relative;
+}
+
+.form-content__birth-place__area::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 45%;
+  transform: rotate(45deg);
+  height: 5px;
+  width: 5px;
+  border-right: 2px solid #d9d9d9;
+  border-bottom: 2px solid #d9d9d9;
+}
+
 /*--- course part ---*/
 .form-content__course__option {
   position: relative;
