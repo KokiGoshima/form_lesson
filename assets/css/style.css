@@ -269,6 +269,13 @@
   margin-left: 0;
 }
 
+/*--- submit part ---*/
+.submit-btn {
+  padding: 13px;
+  background-color: #01bfbd;
+  color: #fff;
+}
+
 /*--- 利用規約 ---*/
 .agreement {
   font-size: 12px;
