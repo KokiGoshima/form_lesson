@@ -279,6 +279,10 @@
   color: #fff;
 }
 
+.submit-btn:hover {
+  background-color: #01a6a4;
+}
+
 /*--- 利用規約 ---*/
 .agreement {
   font-size: 12px;
