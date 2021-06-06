@@ -251,6 +251,12 @@
   border-bottom: 3px solid #01bfbd;
 }
 
+/*--- remarks part ---*/
+.form-content__remarks textarea {
+  height: 100px;
+  resize: none;
+}
+
 .is-half-width {
   width: 50%;
 }
