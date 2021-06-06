@@ -35,6 +35,13 @@
   border-radius: 3px;
 }
 
+.input-area:focus {
+  background-color: #fff;
+  border-color: rgba(59, 133, 133, .4);
+  box-shadow: 0 0 0 2px rgb(1 191 189 / 10%);
+  outline: 0;
+}
+
 .label-text {
   display: block;
   margin-bottom: 5px;
