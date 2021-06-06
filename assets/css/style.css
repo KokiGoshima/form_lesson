@@ -212,6 +212,45 @@
   background-color: #01bfbd;
 }
 
+/*--- course part ---*/
+.form-content__course__option {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  padding-left: 25px;
+  color: #545658;
+  font-size: 16px;
+}
+
+.form-content__course__option:first-child {
+  margin-top: 0;
+}
+
+.form-content__course__options input {
+  display: none;
+}
+
+.form-content__course__option::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  border: 1px solid #d9d9d9;
+}
+
+.form-content__course__options input:checked + .form-content__course__option::after {
+  content: '';
+  position: absolute;
+  left: 6px;
+  bottom: 5%;
+  transform: rotate(45deg);
+  height: 16px;
+  width: 8px;
+  border-right: 3px solid #01bfbd;
+  border-bottom: 3px solid #01bfbd;
+}
+
 .is-half-width {
   width: 50%;
 }
